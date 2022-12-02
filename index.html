@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Leaflet-MiniMap-master/dist/Control.MiniMap.min.css">
+    
+    <title>Mapa con leaflet</title>
+    <h1>Visita sitios </h1>
+    
+    <select name="select-location" id="select-location" >
+        <option value="-1">Seleccione un lugar</option>
+        <option value="-34.60000, -58.45000">Ciudad de Buenos Aires</option>
+        <option value="-33.00937,-58.51722">Gualegauychú</option>
+    </select>
+</head>
+<body>
+    <div id="map">
+    <h1>Visita sitios </h1>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="Leaflet-MiniMap-master/dist/Control.MiniMap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
